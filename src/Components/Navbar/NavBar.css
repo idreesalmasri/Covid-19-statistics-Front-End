@@ -1,0 +1,30 @@
+nav{
+    align-items: center;
+    background-color:  rgb(54, 54, 54);
+    /* justify-content: space-between; */
+    padding: 8px;
+    height: 55px;
+    /* margin-top: 0; */
+}
+#list{
+    display: flex;
+    justify-content: space-between;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    width: 450px;
+    margin: auto;
+    /* padding-inline-start:80px; */
+}
+#list li{
+    list-style: none;
+    padding: 10px;
+    /* position: relative; */
+}
+#list li button{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 30px;
+    /* color:#fff; */
+
+}
