@@ -1,0 +1,16 @@
+.header {
+    background-image: url(https://www.adrad.com/wp-content/uploads/COVID-19-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height:15vh;
+    background-position: center;
+    padding-top:7rem;
+}
+.paragrapgh{
+    display:inline;
+    color: bisque;
+    margin-left: 120px;
+    font-size:20px;
+    /* margin-block-end: 0rem;
+    margin-block-start: 0rem; */
+}
