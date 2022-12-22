@@ -1,9 +1,9 @@
 nav{
     align-items: center;
-    background-color:  rgb(54, 54, 54);
+    background-color:  rgb(69, 64, 64);
     /* justify-content: space-between; */
-    padding: 8px;
-    height: 55px;
+    padding: 7px;
+    height: 45px;
     /* margin-top: 0; */
 }
 #list{
