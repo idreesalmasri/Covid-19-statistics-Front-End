@@ -11,4 +11,4 @@
 5. The user can view the saved records and delete any one of them.
 
 ### Deploy link 
-[Covid-19-statistics-Front-End]()
+[Covid-19-statistics-Front-End](https://dapper-cuchufli-705491.netlify.app/)
