@@ -12,10 +12,16 @@ function App() {
   return (
     <>
       <Header />
-      <NavBar setActiveTab={setActiveTab}/>
-      {activeTab==="Home"?<TotalStatistics />:null}
-      {activeTab==="All Countries"?<AllCountries activeTab={activeTab} />:null}
-      {activeTab==="My Records"?<MyRecords activeTab={activeTab}/>:null}
+      <NavBar setActiveTab={setActiveTab} />
+      <div style={{paddingBottom:'20px'}}>
+        {activeTab === "Home" ? <TotalStatistics /> : null}
+        {activeTab === "All Countries" ? (
+          <AllCountries activeTab={activeTab} />
+        ) : null}
+        {activeTab === "My Records" ? (
+          <MyRecords activeTab={activeTab} />
+        ) : null}
+      </div>
       <Footer />
     </>
   );
